@@ -1,5 +1,3 @@
-function SayHello(name) {
-    console.log("Hello" + name);
-}
+const logger = require('./logger.js');
 
-SayHello("Ronak");
+console.log(logger);
